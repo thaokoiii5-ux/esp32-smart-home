@@ -1,0 +1,13 @@
+{
+  "system": "ThingsBoard Smart Home Gas Monitor",
+  "automation_logic": {
+    "danger_conditions": {
+      "gas_threshold": "> 800 ppm",
+      "temp_threshold": "> 40.0 C",
+      "humi_threshold": "> 70.0 %"
+    },
+    "actions": {
+      "if_danger_detected": "Auto Turn ON Fan (Relay) & Auto Enable Pulsing Buzzer"
+    }
+  }
+}
